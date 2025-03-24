@@ -2,22 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <link rel="shortcut icon" href="#">
     <title></title>
 </head>
 <body>
-    <button onclick="apicall()">Make REST API call</button>
-
+    <button onclick="apicall()">Make REST API call</button>   
 </body>
 
 </html>
-<script type="text/javascript" language="javascript">  
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="JS/wheather-data.js"></script>
+<script>
     $(document).ready(function () {
-       
-        apicall();
-    })
-    function apicall() {
+        
+        //apicall();
+        //console.log(myData.Name);
+        //console.log(myData.init())
+        //myData.init();
+        myData.init();  
+        //UpdateDataBase();
+    });
+    function UpdateDataBase() {
         debugger;
-        // Call api 
+        UpdateData();
 
     }
+
 </script>
+
